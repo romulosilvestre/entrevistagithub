@@ -1,0 +1,24 @@
+header{
+    width:100%;
+    height: 50px;
+    background-color: #000000;
+
+}
+header #logo{
+    text-align: center;
+    padding-top:5px;
+}
+
+/*pai*/
+#menu-lateral{
+    background-color: aqua;
+}
+
+#menu-lateral nav ul li{
+    padding-top: 9px;
+    font-size:11px;
+}
+
+#comandos{
+    background-color: blueviolet;
+}
