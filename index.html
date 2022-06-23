@@ -4,12 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Escola Front-End Curso Git e GitHub</title>
+    <title>Escola Front-End Curso Git e GitHub</title>   
+  
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <style>
+  
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script>
+    $( function() {
+      $( "#draggable" ).draggable();
+    } );
+    </script>
+   
+ 
   </head>
 <body>
+  
+  <div class="container-fluid">
       <header>
            <div id="logo">
                <img src="logos/GitHub_Logo_White.png" width="120" >
@@ -17,6 +34,7 @@
            
           
       </header>
+   
     
       <main>
 
@@ -43,15 +61,19 @@
           </nav>
 
         </section>
+      
         <h1>Mural de Avisos <span class="badge badge-secondary">Novo</span></h1>
         <section id="area-principal">
           
-          <div class="card border-dark mb-3" style="max-width: 18rem;">
-            <div class="card-header">27/06/2022</div>
-            <div class="card-body text-dark">
-              <h5 class="card-title">Carreta 5G</h5>
-              <p class="card-text">Os alunos Eduardo, Cleitson, Rodrigo,Regys, Pietra e Clever.</p>
-            </div>
+            <div id="draggable" class="card border-dark mb-3 ui-widget-content" style="max-width: 18rem;">
+              <div class="card-header">27/06/2022</div>
+                <div class="card-body text-dark">
+                <h5 class="card-title">Carreta 5G</h5>
+                <p class="card-text">Os alunos Eduardo, Cleitson, Rodrigo,Regys, Pietra e Clever.</p>
+               </div>
+          </div>
+     
+          
         </section>
        <!--
         <section id="comandos">
@@ -132,9 +154,9 @@
       <footer>
             <p id="texto-rodape">Curso de Git e GitHub 2022 - Rômulo C. Silvestre&copy </p>
       </footer>
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    </div>
+
     
 </body>
 </html>
