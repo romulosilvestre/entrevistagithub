@@ -82,3 +82,28 @@ background: linear-gradient(0deg, rgb(9, 8, 6) 15%, rgb(11, 9, 9) 100%);
 footer{
     margin-top: 10px;    
 }
+
+.postit-laranja{   
+    border:2px solid orange;
+}
+#draggable {
+    width:75px ;
+    height:75px ;    
+    color: #000000;
+    border:2px solid #000000;
+ }
+
+ .texto-padrao{
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    color:#000000;
+ }
+ .texto-azul{
+    color:blue;
+ }
+ .texto-rosa{
+    color:pink;
+ }
+ .texto-verde{
+    color:green;
+ }
